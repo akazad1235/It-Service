@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutTeam from '../Component/AboutTeam';
 import Header from '../Component/Header';
 import NavBar from '../Component/NavBar';
 
@@ -7,7 +8,7 @@ const Homepage = () => {
         <div>
             <NavBar/>
             <Header/>
-            <h1 className="text">thi is azad</h1>
+            <AboutTeam/>
         </div>
     );
 };

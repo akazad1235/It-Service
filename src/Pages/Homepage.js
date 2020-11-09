@@ -2,6 +2,7 @@ import React from 'react';
 import AboutTeam from '../Component/AboutTeam';
 import Blog from '../Component/Blog';
 import Client from '../Component/Client';
+import Footer from '../Component/Footer';
 import Header from '../Component/Header';
 import NavBar from '../Component/NavBar';
 import Project from '../Component/Project';
@@ -21,6 +22,7 @@ const Homepage = () => {
             <TeamMember/>
             <Testimonials/>
             <Blog/>
+            <Footer/>
         </div>
     );
 };

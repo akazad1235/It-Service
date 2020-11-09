@@ -4,8 +4,8 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 const NavBar = () => {
     return (
         <div className="bg-dark" >
-            <Container>
-                <Navbar expand="lg"  sticky="top">
+            <Container className="h-100 ">
+                <Navbar expand="lg"  sticky="top" className="top-0">
                     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

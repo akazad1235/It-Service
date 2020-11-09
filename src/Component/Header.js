@@ -10,7 +10,7 @@ const Header = () => {
                         <h1 className="font-weight-bold text-center m-3">Inspirational <span className="text-danger">Technologies</span></h1>
                         <p className="text-center mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora corporis alias accusantium. Ex accusantium voluptates, repellendus libero eligendi voluptatum inventore nobis omnis atque tempore dolore placeat necessitatibus? Assumenda, odio velit.</p>
                         <div className="text-center">
-                             <Button className="btn btn-danger my-3">LEARN  MORE</Button>   
+                             <Button className="btn btn-danger btn-lg my-3">LEARN  MORE</Button>   
                         </div>
                     </Col>
                 </Row>   

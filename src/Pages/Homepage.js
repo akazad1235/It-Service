@@ -2,6 +2,7 @@ import React from 'react';
 import AboutTeam from '../Component/AboutTeam';
 import Header from '../Component/Header';
 import NavBar from '../Component/NavBar';
+import Project from '../Component/Project';
 import Service from '../Component/Service';
 
 const Homepage = () => {
@@ -11,6 +12,7 @@ const Homepage = () => {
             <Header/>
             <AboutTeam/>
             <Service/>
+            <Project/>
         </div>
     );
 };

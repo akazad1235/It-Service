@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutTeam from '../Component/AboutTeam';
+import Blog from '../Component/Blog';
 import Client from '../Component/Client';
 import Header from '../Component/Header';
 import NavBar from '../Component/NavBar';
@@ -19,6 +20,7 @@ const Homepage = () => {
             <Client/>
             <TeamMember/>
             <Testimonials/>
+            <Blog/>
         </div>
     );
 };

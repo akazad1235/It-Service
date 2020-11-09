@@ -5,6 +5,7 @@ import Header from '../Component/Header';
 import NavBar from '../Component/NavBar';
 import Project from '../Component/Project';
 import Service from '../Component/Service';
+import TeamMember from '../Component/TeamMember';
 
 const Homepage = () => {
     return (
@@ -15,6 +16,7 @@ const Homepage = () => {
             <Service/>
             <Project/>
             <Client/>
+            <TeamMember/>
         </div>
     );
 };

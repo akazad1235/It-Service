@@ -1,0 +1,26 @@
+.header-container{
+    background-image: url('https://cdn.dribbble.com/users/5027779/screenshots/11832318/media/baa8bfa122b2013760e6ddbc8bd20e14.jpg');
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-container::before{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    opacity: .8;
+    top: 0;
+}
+.header-box{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, Col, Container, Row } from 'react-bootstrap';
+import bgVideo from '../Assets/video/background.mp4'
 
 const Header = () => {
     return (
@@ -15,6 +16,9 @@ const Header = () => {
                     </Col>
                 </Row>   
            </Container>
+           <video autoPlay loop muted className="w-100">
+                <source src={bgVideo} type="video/mp4"/>
+           </video>
         </div>
     );
 };

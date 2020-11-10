@@ -33,7 +33,7 @@ const NavBar = () => {
                         <Nav.Link href="#testimonials" className="mx-1 text-white">Testimonials</Nav.Link>
                         <Nav.Link href="#blog" className="mx-1 text-white">Blog</Nav.Link>
                         <Nav.Link href="#contact" className="mx-1 text-white">Contact</Nav.Link>
-                        <Nav.Link ><NavLink to="/admin" className="text-white btn-outline-danger border rounded mx-2 resume-button d-inline px-3 p-1">Admin</NavLink></Nav.Link>
+                        <Nav.Link ><NavLink to="/imageUpload" className="text-white btn-outline-danger border rounded mx-2 resume-button d-inline px-3 p-1">Admin</NavLink></Nav.Link>
                         
                         </Nav>
                     </Navbar.Collapse>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import MultiImageInput from 'react-multiple-image-input';
+import { Link } from 'react-router-dom';
 
 const ImageUpload = () => {
 
@@ -12,12 +13,15 @@ const ImageUpload = () => {
       const [images, setImages] = useState({});
 
     return (
-         <MultiImageInput
+         <div>
+            <MultiImageInput
             max={4}
             images={images}
             setImages={setImages}
             cropConfig={{ minHeight: 200, maxHeight: 300,  crop, ruleOfThirds: true }}
          />
+          <button className="btn btn-danger btn-lg"><Link to="/imageAction" className="text-white">Go to Mange Image</Link></button>
+         </div>
     );
 };
 

@@ -12,8 +12,6 @@ const Service = () => {
                             
                             {
                                 serviceData.map( service => {
-                                    console.log(service.title);
-                                    console.log(service.img);
                                     return <>
                                         <Col lg={4} xl={3} md={6} sm={12} xm={12}>
                                             <Card className="my-2">

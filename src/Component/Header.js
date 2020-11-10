@@ -4,7 +4,7 @@ import bgVideo from '../Assets/video/background.mp4'
 
 const Header = () => {
     return (
-        <div className="header-container">
+        <div className="header-container" id="home">
              <Container className="">
                 <Row className="header-box">
                     <Col lg={12} className="text-white mt-5 m-auto">

@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import {Button, Container } from 'react-bootstrap';
+import ClientFeedback from '../FakeData/ClientFeedback';
 
 const Testimonials = () => {
     const customSlider = useRef();
@@ -33,24 +34,21 @@ const Testimonials = () => {
             
           <Container>
           <Slider ref={c => (customSlider.current = c)} {  ...settings}>
-            <div className="text-center testimonials-container">
-                <img  className="rounded-circle mx-auto d-block "  src="https://livedemo00.template-help.com/wt_prod-19259/images/team-01-270x270.jpg" alt=""/>
-                <h2>Md. Faruk Hossian</h2>
-                <h5>CEO</h5>
-                <p className="px-5">Every writer needs to refresh the look of his/hers website from time to time, and that’s why I was looking for a new design for my website. I am so glad I found Rhombus to help me! Their designers understood what my website was lacking immediately and our cooperation brought amazing results. Thank you!</p>
-            </div>
-            <div className="text-center testimonials-container">
-                <img  className="rounded-circle mx-auto d-block "  src="https://livedemo00.template-help.com/wt_prod-19259/images/team-03-270x270.jpg" alt=""/>
-                <h2>Md. Faruk Hossian</h2>
-                <h5>CEO</h5>
-                <p className="px-5">Every writer needs to refresh the look of his/hers website from time to time, and that’s why I was looking for a new design for my website. I am so glad I found Rhombus to help me! Their designers understood what my website was lacking immediately and our cooperation brought amazing results. Thank you!</p>
-            </div>
-            <div className="text-center testimonials-container">
-                <img  className="rounded-circle mx-auto d-block "  src="https://livedemo00.template-help.com/wt_prod-19259/images/team-01-270x270.jpg" alt=""/>
-                <h2>Md. Faruk Hossian</h2>
-                <h5>CEO</h5>
-                <p className="px-5">Every writer needs to refresh the look of his/hers website from time to time, and that’s why I was looking for a new design for my website. I am so glad I found Rhombus to help me! Their designers understood what my website was lacking immediately and our cooperation brought amazing results. Thank you!</p>
-            </div>
+            {
+            ClientFeedback.map(cltFeedback => {
+             return<>
+                <div className="text-center testimonials-container">
+                  <img  className="rounded-circle mx-auto d-block "  src={cltFeedback.img} alt=""/>
+            <h2>{cltFeedback.name}</h2>
+            <h5 className="text-danger">{cltFeedback.designation}</h5>
+            <p className="px-5">{cltFeedback.desc}</p>
+                </div>
+               </>
+            
+             })
+            }
+         
+            
              </Slider>
           </Container>
 
@@ -59,4 +57,4 @@ const Testimonials = () => {
     );
 };
 
-export default Testimonials;
+export default Testimonials;{}

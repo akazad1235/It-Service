@@ -44,7 +44,7 @@ const Client = () => {
         ]
       };
     return (
-        <div className="client-container my-5 py-5" >
+        <div className="client-container my-5 py-5" id="client" >
             <h1 className="text-center mb-5">Our Client</h1>
         <Slider {...settings}>
             {

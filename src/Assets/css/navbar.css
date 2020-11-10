@@ -1,0 +1,13 @@
+.header-nav{
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    transition:0.6s;
+    z-index: 5;
+}
+.sticky{
+    background-color: #1F2323;
+    
+      
+}

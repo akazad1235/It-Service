@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 
 const TeamMember = () => {
     return (
-        <div>
+        <div id="team">
             <h1 className="text-center">Our Team</h1>
             <Container className="my-5">
                 <Row>

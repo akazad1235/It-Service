@@ -7,7 +7,7 @@ const Project = () => {
     console.log(projectFakedata);
 
     return (
-        <div className="my-5">
+        <div className="my-5" id="project">
             <h1 className="text-center my-5 font-weight-bold">Our Project</h1>
             <Container>
                 <Row>

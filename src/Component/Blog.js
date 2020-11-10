@@ -5,7 +5,7 @@ import blogFakedata from '../FakeData/BlogData';
 
 const Blog = () => {
     return (
-        <div className="my-5">
+        <div className="my-5" id="blog">
             <h1 className="text-center my-5">Latest News</h1>
             <Container>
                 <Row>

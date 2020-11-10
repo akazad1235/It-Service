@@ -4,7 +4,7 @@ import { Button,Col, Container, Row } from 'react-bootstrap';
 const AboutTeam = () => {
     return (
         <>
-           <Container className="my-5">
+           <Container className="my-5" id="about">
                 <Row>
                     <Col lg={6} xl={6} md={6} sm={12} xm={12}>
                         <img className="img-fluid" src="https://gbksoft.com/blog/wp-content/uploads/2020/06/sw-development-teams.png" alt=""/>

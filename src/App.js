@@ -23,6 +23,9 @@ function App() {
            <Route path="/imageAction">
               <ImageAction/>
            </Route>
+           <Route exact path="/">
+              <Homepage/>
+           </Route>
          </Switch>
        </Router>
     </div>

@@ -24,7 +24,7 @@ const Testimonials = () => {
       };
 
     return (
-        <div>
+        <div id="testimonials">
             <h1 className="text-center my-3">Testimonials</h1>
               <div className="text-center mb-5">
                 <Button className="btn btn-danger btn-sm m-1" onClick={previous}>Prev</Button>

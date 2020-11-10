@@ -5,7 +5,7 @@ import serviceData from '../FakeData/ServiceFakedata';
 
 const Service = () => {
     return (
-        <div className="service-container py-2 ">
+        <div className="service-container py-2 " id="service">
                     <h1 className="text-center my-5">Our Service</h1>
                     <Container className="my-5">
                         <Row> 
